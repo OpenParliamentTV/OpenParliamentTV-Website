@@ -81,19 +81,20 @@
 				<h2>Background</h2>
 				<p>Almost every parliament publishes video recordings as well as text-based transcripts or protocols of parliamentary speeches, along with other documents like bills, laws, analyses or party standpoints. </p>
 				<p>In many countries these publications are required by law and in some cases the materials are even in the public domain. But despite comparable structures and similar country-specific workflows, parliamentary proceedings are published in various, non-interoperable formats and the parliament tv infrastructures are not accessible beyond the boundaries of specific platforms. </p>
-				<p>There are however many promising approaches to developing generic, inter-parliamentary document standards, ontologies and description models for parliamentary proceedings and legislative processes. Parliamentary administrations are in some cases actively involved in the standardization process, like the <a href="https://pds.blog.parliament.uk/" target="_blank">Parliamentary Digital Service</a> in the UK, which is a main driver in designing <a href="https://ukparliament.github.io/ontologies/" target="_blank">parliamentary data models, APIs and ontologies</a>. The respective specifications are openly discussed in the <a href="https://www.w3.org/community/opengov/" target="_blank">W3C Open Government Community Group</a>, namely <a href="http://www.popoloproject.com/" target="_blank">Popolo</a>, <a href="https://github.com/OpenGovLD/specs" target="_blank">OpenGovLD</a>, and <a href="https://github.com/argu-co/popolo-ori" target="_blank">Popolo-ORI</a>, as well as an <a href="https://github.com/schemaorg/schemaorg/issues/1743" target="_blank">extension of the schema.org vocabularies</a>. In the <a href="https://history.blogs.sas.ac.uk/tag/digging-into-linked-parliamentary-data/" target="_blank">DiLiPaD</a> (Digging into Linked Parliamentary Data) project, some of these principles have been applied to parliamentary proceedings in order to build a common search engine for proceedings of the Netherlands, the UK and Canada, based on Linked Open Data and Semantic Web technologies. The <a href="http://www.talkofeurope.eu/" target="_blank">Talk of Europe</a> project built upon the same principles, but with a focus on EU parliament proceedings. The Talk of Europe partners also employed additional means of analyzing the proceedings regarding media coverage of debates and identified subjects. With regards to parliamentary proceedings data, the CLARIN ERIC research infrastructure offers access to a comprehensive <a href="https://www.clarin.eu/resource-families/parliamentary-corpora" target="_blank">list of publicly accessible parliamentary corpora</a>. Within the CLARIN ERIC framework, there are efforts to implementing <a href="https://github.com/clarin-eric/parla-clarin" target="_blank">document standards for parliamentary proceedings based on the TEI XML Schema</a>. These efforts were also discussed in the ParlaCLARIN workshops at <a href="https://www.clarin.eu/ParlaCLARIN" target="_blank">LREC2018</a> and <a href="https://www.clarin.eu/ParlaCLARIN-II" target="_blank">LREC2020</a></p>
+				<p>There are however many promising approaches to developing generic, inter-parliamentary document standards, ontologies and description models for parliamentary proceedings and legislative processes. Parliamentary administrations are in some cases actively involved in the standardization process, like the <a href="https://pds.blog.parliament.uk/" target="_blank">Parliamentary Digital Service</a> in the UK, which is a main driver in designing <a href="https://ukparliament.github.io/ontologies/" target="_blank">parliamentary data models, APIs and ontologies</a>. The respective specifications are openly discussed in the <a href="https://www.w3.org/community/opengov/" target="_blank">W3C Open Government Community Group</a>, namely <a href="http://www.popoloproject.com/" target="_blank">Popolo</a>, <a href="https://github.com/OpenGovLD/specs" target="_blank">OpenGovLD</a>, and <a href="https://github.com/argu-co/popolo-ori" target="_blank">Popolo-ORI</a>, as well as an <a href="https://github.com/schemaorg/schemaorg/issues/1743" target="_blank">extension of the schema.org vocabularies</a>. In the <a href="https://history.blogs.sas.ac.uk/tag/digging-into-linked-parliamentary-data/" target="_blank">DiLiPaD</a> (Digging into Linked Parliamentary Data) project, some of these principles have been applied to parliamentary proceedings in order to build a common search engine for proceedings of the Netherlands, the UK and Canada, based on Linked Open Data and Semantic Web technologies. The <a href="http://www.talkofeurope.eu/" target="_blank">Talk of Europe</a> project built upon the same principles, but with a focus on EU parliament proceedings. The Talk of Europe partners also employed additional means of analyzing the proceedings regarding media coverage of debates and identified subjects. With regards to parliamentary proceedings data, the CLARIN ERIC research infrastructure offers access to a comprehensive <a href="https://www.clarin.eu/resource-families/parliamentary-corpora" target="_blank">list of publicly accessible parliamentary corpora</a>. Within the CLARIN ERIC framework, there are efforts to implement <a href="https://github.com/clarin-eric/parla-clarin" target="_blank">document standards for parliamentary proceedings based on the TEI XML Schema</a>. With a focus on the German Bundestag and the United Nations General Assembly, the <a href="https://polmine.github.io/about/" target="_blank">PolMine</a> project resulted in sets of tools and document parsers to transcode respective parliamentary proceedings and legislative processes. These efforts were also discussed in two ParlaCLARIN workshops at <a href="https://www.clarin.eu/ParlaCLARIN" target="_blank">LREC2018</a> and most recently at <a href="https://www.clarin.eu/ParlaCLARIN-II" target="_blank">LREC2020</a>.</p>
 				<p>Within the realm of civil society and parliamentary monitoring organisations, proceedings have also been opened up in community-driven efforts, like "OffenesParlament" in <a href="https://offenesparlament.de/" target="_blank">Germany</a> and <a href="https://offenesparlament.at/" target="_blank">Austria</a>, <a href="https://www.theyworkforyou.com/debates/" target="_blank">TheyWorkForYou Debates</a> in the UK, <a href="https://www.nosdeputes.fr/" target="_blank">NosDéputés</a> in France, <a href="https://parlameter.si/" target="_blank">Parlameter</a> in Slovenia or <a href="https://k.blog.hu/2017/12/05/the_language_of_the_hungarian_parliament_1990" target="_blank">Parliamentary Debates Open</a> in Hungary. </p>
 				<p class="lead">But despite the availability of the corresponding audiovisual recordings, such efforts have - with very few exceptions - been purely text-based. </p>
 				<p>On the level of national parliaments, several projects explored ways of aligning parliamentary proceedings (and other types of text transcripts) with the video recordings of speeches in order to create a searchable index of time-based transcripts, like <a href="http://www.polimedia.nl/about?lang=en" target="_blank">PoliMedia</a> in the Netherlands or the <a href="https://archive.org/details/us_congress_archive" target="_blank">TV News Archive</a> platform in the US. <br>
 				The UK-based platform TheyWorkForYou previously attempted to <a href="https://www.theyworkforyou.com/video/" target="_blank">align parliamentary proceedings with video recordings</a> of the UK House of Commons debates in a manual and community-driven effort. </p>
 				<p>The development of inter-parliamentary exchange formats, ontologies and vocabularies still requires more work, but the general availability of parliamentary proceedings as open data is progressing in many European countries, as well as on EU parliament level. </p>
-				<p>More problematic is the usability of video recordings. While most countries provide video streams of parliamentary debates online, the systems and platforms are mostly proprietary, do not contain appropriate APIs and often come with strict copyright restrictions on the audiovisual material (eg. in the <a href="https://www.parliament.uk/site-information/copyright-parliament/pru-licence-agreements/downloading--sharing-terms--conditions/" target="_blank">UK</a> and <a href="http://www.cpac.ca/en/terms-of-use/" target="_blank">Canada</a>). In order to open up the debates, the parliament tv archives need to be more accessible and need to be handled with the same openness and transparency aspirations as other parliamentary data. <br><br>
-				Video recordings of parliamentary debates </p>
+				<p>More problematic is the usability of video recordings. While most countries provide video streams of parliamentary debates online, the systems and platforms are mostly proprietary, do not contain appropriate APIs and often come with strict copyright restrictions on the audiovisual material (eg. in the <a href="https://www.parliament.uk/site-information/copyright-parliament/pru-licence-agreements/downloading--sharing-terms--conditions/" target="_blank">UK</a> and <a href="http://www.cpac.ca/en/terms-of-use/" target="_blank">Canada</a>). </p>
+				<p class="lead">In order to open up the debates, the parliament tv archives need to be more accessible and need to be handled with the same openness and transparency aspirations as other parliamentary data.</p>
+				<p>Video recordings of parliamentary debates </p>
 				<ul>
 					<li>need to be published under <a href="https://creativecommons.org/licenses/" target="_blank">Creative Commons</a> licenses if they are not already in the public domain</li>
 					<li>should be accessible and downloadable via persistent identifiers</li>
 				</ul> 
-				<p>Advocacy organisations like <a href="https://okfn.org/" target="_blank">Open Knowledge International</a> or the <a href="https://wikimediafoundation.org/" target="_blank">Wikimedia Foundation</a> -  which already took a lead in convincing administrations to open up their data - need to take part in an additional negotiation effort to open up audio and video materials. Multi-stakeholder forums like the <a href="https://www.opengovpartnership.org/" target="_blank">Open Government Partnership</a>, <a href="https://openingparliament.org/declaration/" target="_blank">OpeningParliament.org</a> (Declaration on Parliamentary Openness) and the <a href="https://parliament.watch/" target="_blank">Parliamentwatch Network</a> need to be actively involved in this process. </p>
+				<p>Organisations like <a href="https://okfn.org/" target="_blank">Open Knowledge International</a>, the <a href="https://wikimediafoundation.org/" target="_blank">Wikimedia Foundation</a> or <a href="https://creativecommons.org/about/" target="_blank">Creative Commons</a> need to take part in an advocacy effort towards opening up parliamentary audio and video materials. Multi-stakeholder forums like the <a href="https://www.opengovpartnership.org/" target="_blank">Open Government Partnership</a>, <a href="https://openingparliament.org/declaration/" target="_blank">OpeningParliament.org</a> (Declaration on Parliamentary Openness) and the <a href="https://parliament.watch/" target="_blank">Parliamentwatch Network</a> should be actively involved in this process. </p>
 				<p class="lead">This project will only be successful, if advocacy organisations team up with research institutions, parliaments and open data activists to develop a common set of simple, reusable, openly licensed and well documented components. </p>
 			  </div>
 			</div>
@@ -124,9 +125,37 @@
 			</div>
 			</section>
 
+			<section id="researchpotential" class="bg-light">
+			<div class="container">
+			<div class="row">
+			  <div class="col-lg-10 mx-auto">
+				<h2>Research Potential</h2>
+				<div class="row">
+				  <div class="col-lg-6 mx-auto">
+					<p class="lead">Work in progress</p>
+				  </div>
+				  <div class="col-lg-6 mx-auto">
+					<p>Lorem Ipsum</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			</div>
+			</section>
+
+			<section id="researchpotential" class="">
+			<div class="container">
+			<div class="row">
+			  <div class="col-lg-8 mx-auto">
+				<h2>Component Ecosystem</h2>
+				<p class="lead">Work in progress</p>
+			  </div>
+			</div>
+			</div>
+			</section>
+
 			<section id="getinvolved" class="bg-light">
 			<div class="container">
-			  
 			  <div class="row" style="margin-bottom: 20px;">
 				<div class="col-lg-10 mx-auto">
 				  <h2>Get involved</h2>
@@ -142,19 +171,6 @@
 			  </div>
 			</div>
 			</section>
-
-			<!--
-			<section id="researchpotential" class="bg-light">
-			<div class="container">
-			<div class="row">
-			  <div class="col-lg-8 mx-auto">
-				<h2>Research Potential</h2>
-				<p class="lead">Work in progress</p>
-			  </div>
-			</div>
-			</div>
-			</section>
-			-->
 
 			<!-- Footer -->
 			<div style="background-color: var(--primary-fg-color); padding: 30px 0;">
