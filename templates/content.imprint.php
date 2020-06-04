@@ -36,14 +36,12 @@
 		<div class="row m-0" style="position: relative; z-index: 1">
 			<div class="col-lg-10 mx-auto">
 				<h2><?php echo L::imprint; ?></h2>
-				<p>Open Knowledge Foundation Deutschland e.V.<br>
-					Singerstr. 109, 10179 Berlin<br>
-					<a href="https://okfn.de/" target="_blank">https://okfn.de</a></p>
-				<p>
-					Eingetragen beim Amtsgericht Charlottenburg, VR 30468 B.<br>
-					Vertretungsberichtiger Vorstand: Andreas Pawelke, Daniel Dietrich, Jana Wichmann, Kristina Klein, Lucy Chambers. <br>
-					Inhaltlich verantwortlich gemäß § 5 TMG, § 55 RStV: Joscha Jäger<br>
-				Umsatzsteuernummer: DE278022128</p>
+				<p>Joscha Jäger<br>
+					c/o MIZ Babelsberg<br>
+					Open Parliament TV<br>
+					Stahnsdorfer Str. 107<br>
+					14482 Potsdam<br></p>
+				<p>Inhaltlich verantwortlich gemäß § 5 TMG, § 55 RStV: Joscha Jäger</p>
 				<h2><?php echo L::contactRequests; ?></h2>
 				<p>Joscha Jäger, <?php echo L::projectLead; ?>: <br>
 					<b>joscha.jaeger [at] openparliament.tv</b></p>
