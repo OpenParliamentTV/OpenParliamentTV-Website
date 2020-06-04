@@ -104,22 +104,26 @@
 			<section id="innovationpotential">
 			<div class="container">
 			<div class="row">
-			  <div class="col-lg-8 mx-auto">
+			  <div class="col-lg-10 mx-auto">
 				<h2>Innovation Potential</h2>
-				<p>Beyond standardized parliamentary proceedings and accessible video recordings, there is a clear lack of open tools which cover the (semi-)automated alignment (synchronisation) of parliamentary speeches, as well as the platform-independent publication of respective audiovisual formats. </p>
-				<p>In order to analyze, visualize and contextualize speeches held in different parliaments, a generic set of interoperable components is needed, suitable for more than one specific parliamentary architecture. This includes the design of a standardized exchange format, which can reflect transcripts, content descriptions, enrichments and annotations in the context of video recordings. </p>
-				<p>Internally developed parliamentary infrastructure alone will not fulfill these requirements. Neither will a purely academic research context. The pace of innovation within public administrations and the project-centric nature of academic research are not likely to provide an environment in which the project will successfully and permanently change how citizens engage with parliamentary debates. As this is one of the declared goals, the consortium also needs to include more permanently involved entities with an already active user base and community. </p>
-				<p>The issue of text & audio alignment is in itself not particularly complex. There are several open source solutions, which facilitate <a href="https://www.readbeyond.it/aeneas/" target="_blank">solid, word-exact alignments</a>, based on audio streams and existing text transcriptions. The core challenges are rather </p>
-				<ul>
-				  <li>designing inter-parliamentary workflows for both textual and audiovisual data</li>
-				  <li>developing a set of small, simple and interoperable components</li>
-				  <li>developing a generic API for different parliament tv environments, based on the parliamentary proceedings / protocols</li>
-				  <li>designing innovative user interfaces for context-related audiovisual annotations</li>
-				</ul>
-				<p>Specific potential for innovation lies in the development of an exchange format for audiovisual contents plus annotations, which builds upon existing Linked Open Data schemes and is thus compatible with previously developed inter-parliamentary data models and ontologies. In the  GLAM sector (Galleries, Libraries, Archives, Museums), the <a href="https://iiif.io/community/consortium/" target="_blank">IIIF consortium</a> aims to define common standards and APIs around the presentation of image-based contents. The <a href="https://iiif.io/community/groups/av/" target="_blank">IIIF A/V Technical Specification Group</a> is working on an extension of these standards towards the <a href="https://iiif.io/api/presentation/3.0/" target="_blank">presentation of audiovisual contents and annotations</a>. These efforts are <a href="https://openhypervideo.github.io/iiif-interactive-transcript/" target="_blank">directly related to the presentation of parliamentary speeches</a> and currently have the potential to become a de facto standard far beyond the humanities domain. An interdisciplinary collaboration on respective implementations could be a direct benefit for research infrastructures like <a href="https://www.clarin.eu/" target="_blank">CLARIN</a> and <a href="https://www.dariah.eu/" target="_blank">DARIAH</a>, research communities around interactive broadcasting and online video experiences like <a href="https://tvx.acm.org/" target="_blank">ACM TVX</a>, the <a href="https://www.w3.org/2013/data/" target="_blank">Semantic Web community</a> and the international community of technology-focused open government initiatives like the <a href="https://www.w3.org/community/opengov/" target="_blank">W3C Open Government Community Group</a>. </p>
-				<p>Besides an interdisciplinary academic collaboration, the inclusion of multi-stakeholder open government advocacy groups and parliamentary monitoring organisations allows us to employ permanent workflows (as opposed to project-specific “datasets”), facilitates an early community building process and enables the integration of selected components as parts of existing platforms. The goal to change how citizens engage with parliamentary debates can in fact not be reached without these partners. </p>
-				<p>By joining forces in an unconventional consortium and focusing on simple technological components, we will be able to implement the proposed workflows, tools and user interfaces in a shorter time frame and with a smaller budget than in a more traditional institutional setting.</p>
-				<p class="lead">Instead of aiming for maximum exactness of an automated process or dealing with specific peculiarities of one parliamentary administration, we focus on the broad applicability and reusability of the developed components. </p>
+				<div class="row">
+				  <div class="col-lg-6 mx-auto">
+					<p>Beyond standardized parliamentary proceedings and accessible video recordings, there is a clear lack of open tools which cover the (semi-)automated alignment (synchronisation) of parliamentary speeches, as well as the platform-independent publication of respective audiovisual formats. </p>
+					<p>In order to analyze, visualize and contextualize speeches held in different parliaments, a generic set of interoperable components is needed, suitable for more than one specific parliamentary architecture. This includes the design of a standardized exchange format, which can reflect transcripts, content descriptions, enrichments and annotations in the context of video recordings. </p>
+					<p>Internally developed parliamentary infrastructure alone will not fulfill these requirements. Neither will a purely academic research context. The pace of innovation within public administrations and the project-centric nature of academic research are not likely to provide an environment in which the project will successfully and permanently change how citizens engage with parliamentary debates. As this is one of the declared goals, the consortium also needs to include more permanently involved entities with an already active user base and community. </p>
+				  </div>
+				  <div class="col-lg-6 mx-auto">
+				  	<p>The core challenges are </p>
+					<ul>
+					  <li>designing inter-parliamentary workflows for both textual and audiovisual data</li>
+					  <li>developing a set of small, simple and interoperable components</li>
+					  <li>developing a generic API for different parliament tv environments, based on the parliamentary proceedings / protocols</li>
+					  <li>designing innovative user interfaces for context-related audiovisual annotations</li>
+					</ul>
+				  	<p>By joining forces in an unconventional consortium and focusing on simple technological components, we will be able to implement the proposed workflows, tools and user interfaces in a shorter time frame and with a smaller budget than in a more traditional institutional setting.</p>
+					<p class="lead">Instead of aiming for maximum exactness of an automated process or dealing with specific peculiarities of one parliamentary administration, we focus on the broad applicability and reusability of the developed components. </p>
+				  </div>
+				</div>
 			  </div>
 			</div>
 			</div>
@@ -128,16 +132,14 @@
 			<section id="researchpotential" class="bg-light">
 			<div class="container">
 			<div class="row">
-			  <div class="col-lg-10 mx-auto">
+			  <div class="col-lg-8 mx-auto">
 				<h2>Research Potential</h2>
-				<div class="row">
-				  <div class="col-lg-6 mx-auto">
-					<p class="lead">Work in progress</p>
-				  </div>
-				  <div class="col-lg-6 mx-auto">
-					<p>Lorem Ipsum</p>
-				  </div>
-				</div>
+				<p class="lead">Work in progress</p>
+				<!--
+				<p>Specific potential for innovation lies in the development of an exchange format for audiovisual contents plus annotations, which builds upon existing Linked Open Data schemes and is thus compatible with previously developed inter-parliamentary data models and ontologies. In the  GLAM sector (Galleries, Libraries, Archives, Museums), the <a href="https://iiif.io/community/consortium/" target="_blank">IIIF consortium</a> aims to define common standards and APIs around the presentation of image-based contents. The <a href="https://iiif.io/community/groups/av/" target="_blank">IIIF A/V Technical Specification Group</a> is working on an extension of these standards towards the <a href="https://iiif.io/api/presentation/3.0/" target="_blank">presentation of audiovisual contents and annotations</a>. These efforts are <a href="https://openhypervideo.github.io/iiif-interactive-transcript/" target="_blank">directly related to the presentation of parliamentary speeches</a> and currently have the potential to become a de facto standard far beyond the humanities domain. An interdisciplinary collaboration on respective implementations could be a direct benefit for research infrastructures like <a href="https://www.clarin.eu/" target="_blank">CLARIN</a> and <a href="https://www.dariah.eu/" target="_blank">DARIAH</a>, research communities around interactive broadcasting and online video experiences like <a href="https://tvx.acm.org/" target="_blank">ACM TVX</a>, the <a href="https://www.w3.org/2013/data/" target="_blank">Semantic Web community</a> and the international community of technology-focused open government initiatives like the <a href="https://www.w3.org/community/opengov/" target="_blank">W3C Open Government Community Group</a>. </p>
+				-->
+				<p>[...]</p>
+				<p>Besides an interdisciplinary academic collaboration, the inclusion of multi-stakeholder open government advocacy groups and parliamentary monitoring organisations allows us to employ permanent workflows (as opposed to project-specific “datasets”), facilitates an early community building process and enables the integration of selected components as parts of existing platforms. The goal to change how citizens engage with parliamentary debates can in fact not be reached without these partners. </p>
 			  </div>
 			</div>
 			</div>
@@ -146,9 +148,12 @@
 			<section id="researchpotential" class="">
 			<div class="container">
 			<div class="row">
-			  <div class="col-lg-8 mx-auto">
+			  <div class="col-lg-10 mx-auto">
 				<h2>Component Ecosystem</h2>
 				<p class="lead">Work in progress</p>
+				<a href="client/images/component-system.png">
+					<img style="width: 100%;" src="client/images/component-system.png">
+				</a>
 			  </div>
 			</div>
 			</div>
