@@ -29,6 +29,21 @@
 	<link type="text/css" rel="stylesheet" href="client/css/Chart.min.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/frametrail-webfont.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/style.css" media="all" />
+	<!-- Matomo -->
+	<script>
+	  var _paq = window._paq = window._paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//stats.openparliament.tv/";
+	    _paq.push(['setTrackerUrl', u+'matomo.php']);
+	    _paq.push(['setSiteId', '2']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Matomo Code -->
 </head>
 <body>
 	<?php include_once('header.php'); ?>

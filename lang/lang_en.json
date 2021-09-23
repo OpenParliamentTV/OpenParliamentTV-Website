@@ -8,5 +8,7 @@
 	"imprint": "Imprint",
 	"dataPolicy": "Data Policy",
 	"contactRequests": "Contact & Requests",
-	"projectLead": "Project Lead"
+	"projectLead": "Project Lead",
+	"messageLaunch": "We just launched the <b>Public Beta Version</b> of Open Parliament TV in Germany! <br>Check it out here:",
+	"messageOfficialLaunch": "Official Launch: 20. October"
 }

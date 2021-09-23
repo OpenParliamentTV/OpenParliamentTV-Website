@@ -29,6 +29,21 @@
 	<link type="text/css" rel="stylesheet" href="client/css/Chart.min.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/frametrail-webfont.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/style.css" media="all" />
+	<!-- Matomo -->
+	<script>
+	  var _paq = window._paq = window._paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//stats.openparliament.tv/";
+	    _paq.push(['setTrackerUrl', u+'matomo.php']);
+	    _paq.push(['setSiteId', '2']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Matomo Code -->
 </head>
 <body>
 	<?php include_once('header.php'); ?>
@@ -55,6 +70,8 @@
 				<p>Zur Auswertung nutzt die Website OpenParliament.TV&nbsp;<a href="http://www.matomo.org">Matomo</a>, ein Open-Source-Webanalysewerkzeug. Matomo verwendet sogenannte "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) bleiben dabei unter der Datenhoheit von OpenParliament.TV. Wir benutzen diese Informationen, um die Nutzung auszuwerten und um Reports über die Websiteaktivitäten zusammenzustellen.</p>
 				<p>OpenParliament.TV wird diese Informationen nicht an Dritte übertragen.</p>
 				<p>Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch OpenParliament.TV in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden. Wenn Sie die Analyse durch Matomo ausschalten möchten, können sie dies mit diesem Link tun:&nbsp;<a href="https://stats.openparliament.tv/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" target="_blank">Zur Opt-Out-Seite</a>. Hierdurch wird ein so genannter opt-out cookie mit dem Namen "piwik_ignore" gesetzt, der Matomo signalisiert, dass es Ihr Verhalten nicht analysieren soll.</p>
+				<iframe style="border: 0; height: 180px; width: 100%;" src="https://stats.openparliament.tv/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=fff4c5&fontColor=&fontSize=14px&fontFamily=Open%20Sans"
+		        ></iframe>
 				<h4>1.3 Personenbezug kann in Einzelfällen nicht vollständig ausgeschlossen werden.</h4>
 				<p>Die Erhebung von personenbezogenen Informationen kann durch die Nutzung von Matomo und der Kürzung der IP-Adresse nahezu vollständig vermieden werden. Eine Rückführung dieser Daten auf einzelne Personen ist in einzelfällen Fällen jedoch zumindest theoretisch nicht ganz auszuschließen.</p>
 				<hr>
