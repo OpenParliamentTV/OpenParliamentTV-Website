@@ -58,6 +58,7 @@
 			<div class="container">
 			<div class="row">
 			  <div class="col-lg-10 mx-auto">
+				<div class="alert alert-warning text-center"><?php echo L::messageProposalOutdated; ?> <br><?php echo L::comingSoon; ?></div>
 				<div class="row" style="margin-bottom: 20px;">
 				  <div class="col-lg-12 mx-auto">
 					<h4>TL;DR</h4>

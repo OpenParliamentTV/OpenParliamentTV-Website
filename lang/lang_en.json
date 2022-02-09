@@ -1,7 +1,7 @@
 {
 	"brand": "Open Parliament TV",
 	"tagline": "Making parliamentary debates more transparent, accessible and understandable",
-	"comingSoon": "Coming soon to a parliament near you.",
+	"comingSoon": "You will soon find more info here about the overall <b>vision, mission and strategy</b> of the Open Parliament TV project.",
 	"inTheMeantime": "In the meantime:",
 	"proposalBtn": "Read our Project Proposal",
 	"twitterBtn": "Follow @OpenParlTV on Twitter",
@@ -9,6 +9,6 @@
 	"dataPolicy": "Data Policy",
 	"contactRequests": "Contact & Requests",
 	"projectLead": "Project Lead",
-	"messageLaunch": "We just launched the <b>Public Beta Version</b> of Open Parliament TV in Germany! <br>Check it out here:",
-	"messageOfficialLaunch": "Official Launch: 20. October"
+	"messageLaunch": "In October 2021, the first parliament went live on Open Parliament TV! <br>Check out our search engine and interactive video platform with data by the <b>German Bundestag</b>:",
+	"messageProposalOutdated": "This text was in large parts written in 2018."
 }

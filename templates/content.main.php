@@ -58,7 +58,6 @@
 				<div class="alert alert-success text-center my-5">
 					<?php echo L::messageLaunch; ?> <br><br>
 					<a href="https://de.openparliament.tv">https://de.openparliament.tv</a><br><br>
-					<b><?php echo L::messageOfficialLaunch; ?></b>
 				</div>
 			</div>
 		</div>
@@ -68,7 +67,7 @@
 		</div>
 		-->
 		<div class="row justify-content-center mb-1" style="position: relative; text-align: center;">
-			<h2 style="line-height: 1.8rem;"><?php echo L::comingSoon; ?><br><?php echo L::inTheMeantime; ?></h2>
+			<h2 style="line-height: 1.8rem;"><?php echo L::comingSoon; ?><br><br><?php echo L::inTheMeantime; ?></h2>
 		</div>
 		<div class="row justify-content-md-center">
 			<div class="col-12 col-md-6 col-lg-4 justify-content-center mt-3">
