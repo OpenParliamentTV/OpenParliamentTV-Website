@@ -9,14 +9,21 @@
 		</button>
 		<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link <?= ($page == "proposal") ? "active" : "" ?>" href="./proposal">Project Proposal</a>
+				<li class="nav-item mr-1">
+					<a class="nav-link <?= ($page == "proposal") ? "active" : "" ?>" href="./proposal"><span class="icon-lightbulb-1 mr-1" style="top: -2px;position: relative;"></span><?php echo L::proposal; ?></a>
 				</li>
 				<!--
+				<li class="nav-item mr-3">
+					<a class="nav-link <?= ($page == "background") ? "active" : "" ?>" href="./background"><span class="icon-doc-text-inv mr-0"></span><?php echo L::background; ?></a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link <?= ($page == "faq") ? "active" : "" ?>" href="./faq"><span class="icon-help-circled mr-0"></span><?php echo L::faq; ?></a>
+				</li>
 				<li class="nav-item">
-					<a class="nav-link <?= ($page == "info") ? "active" : "" ?>" href="./info">About</a>
+					<a class="nav-link <?= ($page == "roadmap") ? "active" : "" ?>" href="./roadmap"><span class="icon-tasks mr-1"></span>Roadmap</a>
 				</li>
 				-->
+				<li style="margin-left: 8px; margin-right: 8px; color: #afafaf; border-right: 1px solid #afafaf;"></li>
 				<li class="nav-item">
 					<a class="nav-link <?= ($page == "datapolicy") ? "active" : "" ?>" href="./datapolicy"><?php echo L::dataPolicy; ?></a>
 				</li>

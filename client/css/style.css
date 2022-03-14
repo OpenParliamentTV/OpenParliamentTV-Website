@@ -39,9 +39,9 @@ html, body {
 
 body {
     color: var(--primary-fg-color);
-    background: #f3f4f5;
+    background: #f9fafb;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -129,8 +129,8 @@ main.container.subpage {
 }
 
 section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .bg-light {
@@ -144,7 +144,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.3rem;
 }
 
 h1.brand {
@@ -277,6 +281,16 @@ input:checked + .slider:before, .switch-container.active .slider:before {
     border-radius: 50%;
 }
 
+section {
+
+}
+
+section#platform {
+    color: #fff;
+    background: #52646c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #88979e, #52646c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #88979e, #52646c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .loadingIndicator {
     position: absolute;

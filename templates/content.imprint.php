@@ -5,7 +5,7 @@
 	<meta http-equiv="Expires" content="-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Open Parliament TV - <?php echo L::imprint; ?></title>
+	<title><?php echo L::imprint; ?> - Open Parliament TV</title>
 
 	<meta itemprop="name" content="<?php echo L::brand; ?>">
     <meta name="twitter:title" content="<?php echo L::brand; ?>">
@@ -49,13 +49,12 @@
 	<?php include_once('header.php'); ?>
 	<main class="container subpage">
 		<div class="row m-0" style="position: relative; z-index: 1">
-			<div class="col-lg-10 mx-auto">
+			<div class="col-12">
 				<h2><?php echo L::imprint; ?></h2>
 				<p>Joscha Jäger<br>
-					c/o MIZ Babelsberg<br>
-					Open Parliament TV<br>
-					Stahnsdorfer Str. 107<br>
-					14482 Potsdam<br></p>
+					Bülowstr. 37<br>
+					90491 Nürnberg<br>
+				</p>
 				<p>Inhaltlich verantwortlich gemäß § 5 TMG, § 55 RStV: Joscha Jäger</p>
 				<h2><?php echo L::contactRequests; ?></h2>
 				<p>Joscha Jäger, <?php echo L::projectLead; ?>: <br>
@@ -71,6 +70,7 @@
 			</div>
 		</div>
 	</main>
+	<?php include_once('footer.php'); ?>
 	<script type="text/javascript" src="client/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="client/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="client/js/Chart.min.js"></script>

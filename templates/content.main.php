@@ -46,38 +46,178 @@
 	<!-- End Matomo Code -->
 </head>
 <body>
-	<main class="container mb-5">
-		<div class="row justify-content-center" style="position: relative; z-index: 1">
-			<div class="col-12 col-md-11 col-lg-9 col-xl-7" style="margin-top: 5%;">
-				<img src="client/images/optv-logo.png" class="d-block d-md-inline" style="width: 200px; vertical-align: top; margin: 0 auto;">
-				<h1 class="brand d-block d-md-inline-block"><?php echo L::brand; ?></h1>
-			</div>
-		</div>
-		<div class="row justify-content-center" style="font-size: 1.2rem;">
-			<div class="col-12 col-md-11 col-lg-9 col-xl-8">
-				<div class="alert alert-success text-center my-5">
-					<?php echo L::messageLaunch; ?> <br><br>
-					<a href="https://de.openparliament.tv">https://de.openparliament.tv</a><br><br>
+	<main class="mb-5">
+		<section id="header" class="mb-5">
+			<div class="container">
+				<div class="row justify-content-center" style="position: relative; z-index: 1">
+					<div class="col-12 col-md-11 col-lg-9 col-xl-7" style="margin-top: 5%;">
+						<img src="client/images/optv-logo.png" class="d-block d-md-inline" style="width: 200px; vertical-align: top; margin: 0 auto;">
+						<h1 class="brand d-block d-md-inline-block"><?php echo L::brand; ?></h1>
+					</div>
+				</div>
+				<div class="row justify-content-center" style="position: relative; z-index: 1">
+					<div class="col-12">
+						<h2 class="text-center" style="font-size: 1.7rem;"><?php echo L::tagline; ?></h2>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
+		<section id="platform" style="color: #fff;background: #52646c;background: -webkit-linear-gradient(to right, #88979e, #52646c);background: linear-gradient(to right, #88979e, #52646c);" class="mb-4 py-5">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10 col-lg-6" style="font-size: 1.3rem;">
+						<div class="alert text-center mt-0 mt-xl-3 mb-2 pt-0">
+							<?php echo L::messageLaunch; ?>
+						</div>
+						<div class="text-center mt-2 mt-xl-4"><span class="icon-right-open-big mr-1"></span><a href="https://de.openparliament.tv" target="_blank" class="text-white">https://de.openparliament.tv</a></div>
+					</div>
+					<div class="col-12 col-md-8 col-lg-6 mt-4 mt-lg-0">
+						<a href="https://de.openparliament.tv"><img src="client/images/screenshot.png" class="d-block" style="width: 100%; border: 2px solid #fff; box-shadow: 0 0 6px #1d1d1d;"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="idea" class="mb-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2><span class="icon-lightbulb-1 mr-1" style="top: -4px;position: relative;"></span><?php echo L::proposal; ?></h2>
+					</div>
+					<div class="col-12 col-md-6">
+						<p><?php echo L::textBlockIdea1; ?> </p>
+						<p><?php echo L::textBlockIdea2; ?> </p>
+					</div>
+					<div class="col-12 col-md-6">
+						<p><?php echo L::textBlockIdea3; ?> </p>
+						<ul>
+							<li><?php echo L::textBlockIdea4; ?> </li>
+							<li><?php echo L::textBlockIdea5; ?> </li>
+						</ul>
+					</div>
+					<div class="col-12">
+						<a href="./proposal" class="btn btn-primary d-block py-2 mt-3" style="background: #6f8087;color: #fff;border: none;"><span class="icon-right-open-big mr-1"></span><?php echo L::messageMoreOnIdea; ?></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section id="testimonials" class="mb-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h2><span class="icon-megaphone mr-1"></span><?php echo L::othersAboutUs; ?></h2>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>[...] Open Parliament TV zeigt, welche Möglichkeiten Digitalisierung und Open Data für die Digitale Demokratie bieten <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Bundesministerium für Wirtschaft und Klimaschutz</span><a href="https://mobile.twitter.com/BMWK/status/1454081924687974407" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>[...] Open Parliament TV ist einfach der Hammer. So etwas habe ich mir als Abgeordneter immer gewünscht. <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Fabio De Masi, Ex-MdB</span><a href="https://twitter.com/fabiodemasi/status/1452184758935597058" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Großartiges Tool für Transparenz und Demokratie [...]. Tolle Arbeit, die wir mit CORRECTIV aktiv unterstützen! <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Justus von Daniels, CORRECTIV</span><a href="https://twitter.com/justus_vdaniels/status/1450841365223546882" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>We're very proud to support Open Parliament TV. The project aims to make democratic and civic life more accessible to everyone not just political and media professionals. <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">BBC News Labs</span><a href="https://twitter.com/BBC_News_Labs/status/1451159078797864961" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Mit Open Parliament TV werden die Reden im Bundestag durchsuchbar und endlich zugänglicher. Ich wünsche mir das für alle Parlamente. <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Boris Hekele, abgeordnetenwatch.de</span><a href="https://www.linkedin.com/posts/boris-hekele_interview-zum-projektabschluss-von-open-parliament-activity-6847476581221367808-R_Aa/" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Insofern ist Open Parliament TV ein schönes Beispiel, welche sinnvollen Anwendungen möglich sind, wenn staatliche Daten offen zur Verfügung stehen. <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Bernd Oswald, Bayerischer Rundfunk</span><a href="https://www.br.de/nachrichten/netzwelt/neue-suchmaschine-fuer-bundestagsreden-genauer-geht-s-nicht,SmTauaw" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Was für eine großartige Initiative, um parlamentarische Arbeit transparenter zu machen! <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Anke Domscheit-Berg, MdB</span><a href="https://twitter.com/anked/status/1270373060173062146" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Love this quietly awesome project [...]. Such obvious steps for any modern, web-enabled democracy to take, and yet so few have done so. Bravo. <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Devin Balkind, Sahana Software Foundation, WeGov.NYC</span><a href="https://twitter.com/DevinBalkind/status/1270445706898214913" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Open Parliament TV ist ein großartiges Angebot aus der Zivilgesellschaft für mehr Transparenz der Parlamente. <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Mario Wiedemann, Bertelsmann Stiftung</span><a href="https://mobile.twitter.com/mariosorg/status/1479045403119177734" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Aus der Reihe “Was wir uns immer schon gewünscht haben.” <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">BR Recherche</span><a href="https://twitter.com/BR_Recherche/status/1453242058769113096" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
+						<div class=""><span class="icon-quote-left"></span>Ein Fest für Politiknerds <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">polisphere</span><a href="https://twitter.com/polisphere/status/1442825945421950979" target="_blank"><span class="icon-link ml-2"></span></a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section id="info" class="mb-4">
+			<div class="container">
+				<!--
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h2><span class="icon-info mr-1"></span><?php echo L::moreInfo; ?></h2>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
+						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
+						<a href="./background" class="btn btn-primary d-block"><span class="icon-doc-text-inv mr-1"></span><?php echo L::background; ?></a>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
+						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
+						<a href="./faq" class="btn btn-primary d-block"><span class="icon-help-circled mr-1"></span><?php echo L::faq; ?></a>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
+						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
+						<a href="./roadmap" class="btn btn-primary d-block"><span class="icon-tasks mr-1"></span>Roadmap</a>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
+						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
+						<a href="https://twitter.com/intent/follow?screen_name=OpenParlTV" class="btn btn-primary d-block"><span class="icon-twitter"></span><?php echo L::twitterBtn; ?></a>
+					</div>
+				</div>
+				-->
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-6 col-lg-4 justify-content-center mt-3">
+						<a href="https://twitter.com/intent/follow?screen_name=OpenParlTV" class="btn btn-primary d-block"><span class="icon-twitter"></span><?php echo L::twitterBtn; ?></a>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!--
-		<div class="row justify-content-center mb-4" style="position: relative;">
-			<div class="col-12 col-md-11 col-lg-9 col-xl-8"><a href="https://de.openparliament.tv"><img src="client/images/screenshot.png" class="d-block" style="width: 100%; border: 2px solid #fff; box-shadow: 0 0 8px #cdcdcd;"></a></div>
-		</div>
+		<section id="presse" class="mb-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h2><span class="icon-megaphone mr-1"></span>In den Medien </h2>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 justify-content-center text-center my-3">
+						Logo 1
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 justify-content-center text-center my-3">
+						Logo 2
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 justify-content-center text-center my-3">
+						Logo 3
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 justify-content-center text-center my-3">
+						Logo 4
+					</div>
+				</div>
+			</div>
+		</section>
 		-->
-		<div class="row justify-content-center mb-1" style="position: relative; text-align: center;">
-			<h2 style="line-height: 1.8rem;"><?php echo L::comingSoon; ?><br><br><?php echo L::inTheMeantime; ?></h2>
-		</div>
-		<div class="row justify-content-md-center">
-			<div class="col-12 col-md-6 col-lg-4 justify-content-center mt-3">
-				<a href="./proposal" class="btn btn-primary d-block"><span class="icon-doc-text"></span><?php echo L::proposalBtn; ?></a>
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 justify-content-center mt-3">
-				<a href="https://twitter.com/intent/follow?screen_name=OpenParlTV" class="btn btn-primary d-block"><span class="icon-twitter"></span><?php echo L::twitterBtn; ?></a>
-			</div>
-		</div>
 	</main>
+	<?php include_once('footer.php'); ?>
 	<script type="text/javascript" src="client/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="client/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="client/js/Chart.min.js"></script>
