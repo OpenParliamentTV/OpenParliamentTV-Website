@@ -69,10 +69,10 @@
 						<div class="alert text-center mt-0 mt-xl-3 mb-2 pt-0">
 							<?php echo L::messageLaunch; ?>
 						</div>
-						<div class="text-center mt-2 mt-xl-4"><span class="icon-right-open-big mr-1"></span><a href="https://de.openparliament.tv" target="_blank" class="text-white">https://de.openparliament.tv</a></div>
+						<a class="btn btn-primary d-block py-2 mt-3 text-center mt-xl-4" style="background: #f3f4f5; border: none;" href="https://de.openparliament.tv" target="_blank" class="text-white"><span class="icon-right-open-big mr-1"></span> <b>https://de.openparliament.tv</b></a>
 					</div>
 					<div class="col-12 col-md-8 col-lg-6 mt-4 mt-lg-0">
-						<a href="https://de.openparliament.tv"><img src="client/images/screenshot.png" class="d-block" style="width: 100%; border: 2px solid #fff; box-shadow: 0 0 6px #1d1d1d;"></a>
+						<a href="https://de.openparliament.tv"><img src="client/images/screenshot.png" title="Visit de.openparliament.tv" class="d-block" style="width: 100%; border: 2px solid #fff; box-shadow: 0 0 6px #1d1d1d;" alt="Screenshot of the Open Parliament TV Platform"></a>
 					</div>
 				</div>
 			</div>
