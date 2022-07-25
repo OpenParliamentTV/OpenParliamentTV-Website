@@ -110,47 +110,47 @@
 				</div>
 				<div class="row justify-content-md-center">
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>[...] Open Parliament TV zeigt, welche Möglichkeiten Digitalisierung und Open Data für die Digitale Demokratie bieten <span class="icon-quote-right"></span></div>
-						<div class="mt-3"><span class="font-weight-bolder">Bundesministerium für Wirtschaft und Klimaschutz</span><a href="https://mobile.twitter.com/BMWK/status/1454081924687974407" target="_blank"><span class="icon-link ml-2"></span></a></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote1; ?> <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder"><?php echo L::orgBMWK; ?></span><a href="https://mobile.twitter.com/BMWK/status/1454081924687974407" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>[...] Open Parliament TV ist einfach der Hammer. So etwas habe ich mir als Abgeordneter immer gewünscht. <span class="icon-quote-right"></span></div>
-						<div class="mt-3"><span class="font-weight-bolder">Fabio De Masi, Ex-MdB</span><a href="https://twitter.com/fabiodemasi/status/1452184758935597058" target="_blank"><span class="icon-link ml-2"></span></a></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote2; ?> <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Fabio De Masi, Ex-<?php echo L::orgMDB; ?></span><a href="https://twitter.com/fabiodemasi/status/1452184758935597058" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Großartiges Tool für Transparenz und Demokratie [...]. Tolle Arbeit, die wir mit CORRECTIV aktiv unterstützen! <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote3; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">Justus von Daniels, CORRECTIV</span><a href="https://twitter.com/justus_vdaniels/status/1450841365223546882" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>We're very proud to support Open Parliament TV. The project aims to make democratic and civic life more accessible to everyone not just political and media professionals. <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote4; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">BBC News Labs</span><a href="https://twitter.com/BBC_News_Labs/status/1451159078797864961" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Mit Open Parliament TV werden die Reden im Bundestag durchsuchbar und endlich zugänglicher. Ich wünsche mir das für alle Parlamente. <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote5; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">Boris Hekele, abgeordnetenwatch.de</span><a href="https://www.linkedin.com/posts/boris-hekele_interview-zum-projektabschluss-von-open-parliament-activity-6847476581221367808-R_Aa/" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Insofern ist Open Parliament TV ein schönes Beispiel, welche sinnvollen Anwendungen möglich sind, wenn staatliche Daten offen zur Verfügung stehen. <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote6; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">Bernd Oswald, Bayerischer Rundfunk</span><a href="https://www.br.de/nachrichten/netzwelt/neue-suchmaschine-fuer-bundestagsreden-genauer-geht-s-nicht,SmTauaw" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Was für eine großartige Initiative, um parlamentarische Arbeit transparenter zu machen! <span class="icon-quote-right"></span></div>
-						<div class="mt-3"><span class="font-weight-bolder">Anke Domscheit-Berg, MdB</span><a href="https://twitter.com/anked/status/1270373060173062146" target="_blank"><span class="icon-link ml-2"></span></a></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote7; ?> <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Anke Domscheit-Berg, <?php echo L::orgMDB; ?></span><a href="https://twitter.com/anked/status/1270373060173062146" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Love this quietly awesome project [...]. Such obvious steps for any modern, web-enabled democracy to take, and yet so few have done so. Bravo. <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote8; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">Devin Balkind, Sahana Software Foundation, WeGov.NYC</span><a href="https://twitter.com/DevinBalkind/status/1270445706898214913" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Open Parliament TV ist ein großartiges Angebot aus der Zivilgesellschaft für mehr Transparenz der Parlamente. <span class="icon-quote-right"></span></div>
-						<div class="mt-3"><span class="font-weight-bolder">Mario Wiedemann, Bertelsmann Stiftung</span><a href="https://mobile.twitter.com/mariosorg/status/1479045403119177734" target="_blank"><span class="icon-link ml-2"></span></a></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote9; ?> <span class="icon-quote-right"></span></div>
+						<div class="mt-3"><span class="font-weight-bolder">Mario Wiedemann, Bertelsmann <?php echo L::orgFoundation; ?></span><a href="https://mobile.twitter.com/mariosorg/status/1479045403119177734" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Aus der Reihe “Was wir uns immer schon gewünscht haben.” <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote10; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">BR Recherche</span><a href="https://twitter.com/BR_Recherche/status/1453242058769113096" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6 col-xl-4 justify-content-center text-center my-3">
-						<div class=""><span class="icon-quote-left"></span>Ein Fest für Politiknerds <span class="icon-quote-right"></span></div>
+						<div class=""><span class="icon-quote-left"></span><?php echo L::quote11; ?> <span class="icon-quote-right"></span></div>
 						<div class="mt-3"><span class="font-weight-bolder">polisphere</span><a href="https://twitter.com/polisphere/status/1442825945421950979" target="_blank"><span class="icon-link ml-2"></span></a></div>
 					</div>
 				</div>
