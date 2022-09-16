@@ -46,6 +46,7 @@
 	<!-- End Matomo Code -->
 </head>
 <body>
+	<?php include_once('header.php'); ?>
 	<main class="mb-5">
 		<section id="header" class="mb-5">
 			<div class="container">
@@ -81,7 +82,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h2><span class="icon-lightbulb-1 mr-1" style="top: -4px;position: relative;"></span><?php echo L::proposal; ?></h2>
+						<h2><span class="icon-lightbulb-1 mr-1" style="top: -4px;position: relative;"></span><?php echo L::idea; ?></h2>
 					</div>
 					<div class="col-12 col-md-6">
 						<p><?php echo L::textBlockIdea1; ?> </p>
@@ -95,7 +96,7 @@
 						</ul>
 					</div>
 					<div class="col-12">
-						<a href="./proposal" class="btn btn-primary d-block py-2 mt-3" style="background: #6f8087;color: #fff;border: none;"><span class="icon-right-open-big mr-1"></span><?php echo L::messageMoreOnIdea; ?></a>
+						<a href="./vision-mission-strategy" class="btn btn-primary d-block py-2 mt-3" style="background: #6f8087;color: #fff;border: none;"><span class="icon-right-open-big mr-1"></span><?php echo L::messageMoreOnIdea; ?></a>
 					</div>
 				</div>
 			</div>

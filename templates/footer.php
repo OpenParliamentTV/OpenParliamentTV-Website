@@ -1,8 +1,37 @@
 <footer style="background-color: #fff; padding: 0 0 20px 0; margin-top: 60px;box-shadow: 0px 0px 4px #cfcfcf;">
-	<div class="container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div style="float: left; margin-right: 15px; padding: 15px 10px 0px 10px">
+					<div><?php echo L::fundedBy; ?>:</div>
+					<div class="partnerLogos">
+						<img src="client/images/logos/miz-logo.png" style="height: 26px; margin-top: -4px;">
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div style="float: left; margin-right: 15px; padding: 15px 10px 0px 10px">
+					<div><?php echo L::supportedBy; ?>:</div>
+					<div class="partnerLogos">
+						<img src="client/images/logos/abgeordnetenwatch-sw.png" style="height: 26px; margin-top: -4px;">
+						<img src="client/images/logos/correctiv.svg" style="height: 40px; margin-top: -8px; margin-bottom: 20px; margin-left: 10px; filter: opacity(0.8);">
+						<img src="client/images/logos/bbc-news-labs.svg" style="height: 33px; margin-top: -8px;  margin-left: 10px; filter: opacity(0.7);">
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<!--
+				<div style="float: left; padding: 15px 10px 0px 10px">
+					<div><?php echo L::mediaPartners; ?>:</div>
+					<div class="partnerLogos">
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				-->
+			</div>
+		</div>
+		<hr>
 		<div class="row justify-content-md-center">
-			<div class="col-12 col-md-6 justify-content-center text-center mt-3">
-				<a href="./datapolicy"><?php echo L::dataPolicy; ?></a> | <a href="./imprint"><?php echo L::imprint; ?></a>
+			<div class="col-12 col-md-6 justify-content-center text-center">
+				 <a href="./press"><?php echo L::press; ?></a> | <a href="./datapolicy"><?php echo L::dataPolicy; ?></a> | <a href="./imprint"><?php echo L::imprint; ?></a>
 			</div>
 		</div>
 		<hr>

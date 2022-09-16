@@ -6,6 +6,7 @@
 	# Try to fix conflicting rewrite rules set by Wordpress etc:
 	RewriteEngine Off
 	RewriteEngine On
+	RewriteRule ^proposal(.*)$ /vision-mission-strategy [R=302,NC,L]
 	RewriteCond %{SCRIPT_FILENAME} !-d
 	RewriteCond %{SCRIPT_FILENAME} !-f
 	RewriteRule ^([a-zA-Z0-9_-]+)? index.php?a=$1 [QSA]
