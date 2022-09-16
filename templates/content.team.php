@@ -28,7 +28,7 @@
 	<link type="text/css" rel="stylesheet" href="client/css/bootstrap.min.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/Chart.min.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/frametrail-webfont.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/style.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="client/css/style.css?v=2" media="all" />
 	<!-- Matomo -->
 	<script>
 	  var _paq = window._paq = window._paq || [];
