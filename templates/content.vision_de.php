@@ -8,8 +8,8 @@
 	<title>Vision, Mission & Strategie - Open Parliament TV</title>
 
 	<meta itemprop="name" content="<?php echo L::brand; ?>">
-    <meta name="twitter:title" content="Idee - <?php echo L::brand; ?>">
-    <meta property="og:title" content="Idee - <?php echo L::brand; ?>">
+    <meta name="twitter:title" content="Vision, Mission & Strategie - <?php echo L::brand; ?>">
+    <meta property="og:title" content="Vision, Mission & Strategie - <?php echo L::brand; ?>">
 
     <meta name="description" content="<?php echo L::tagline; ?>">
     <meta itemprop="description" content="<?php echo L::tagline; ?>">
@@ -50,7 +50,7 @@
 	<main style="margin-top: 60px;">
 		<div class="row m-0" style="position: relative; z-index: 1;">
 			<div class="container text-center" style=" margin-bottom: 30px;">
-				<h1 style="font-size: 30px; margin-bottom: 40px;">Open Parliament TV</h1>
+				<h1 style="font-size: 30px; margin-bottom: 40px;">Open <b>Parliament TV</b></h1>
 				<h3><?php echo L::tagline; ?></h3>
 			</div>
 		</div>

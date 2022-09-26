@@ -28,7 +28,7 @@
 	<link type="text/css" rel="stylesheet" href="client/css/bootstrap.min.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/Chart.min.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="client/css/frametrail-webfont.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/style.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="client/css/style.css?v=3" media="all" />
 	<!-- Matomo -->
 	<script>
 	  var _paq = window._paq = window._paq || [];
@@ -48,12 +48,12 @@
 <body>
 	<?php include_once('header.php'); ?>
 	<main class="mb-5">
-		<section id="header" class="mb-5">
+		<section id="header" class="pb-5">
 			<div class="container">
 				<div class="row justify-content-center" style="position: relative; z-index: 1">
 					<div class="col-12 col-md-11 col-lg-9 col-xl-7" style="margin-top: 5%;">
 						<img src="client/images/optv-logo.png" class="d-block d-md-inline" style="width: 200px; vertical-align: top; margin: 0 auto;">
-						<h1 class="brand d-block d-md-inline-block"><?php echo L::brand; ?></h1>
+						<h1 class="brand d-block d-md-inline-block">Open <b>Parliament TV</b></h1>
 					</div>
 				</div>
 				<div class="row justify-content-center" style="position: relative; z-index: 1">
@@ -63,17 +63,17 @@
 				</div>
 			</div>
 		</section>
-		<section id="platform" style="color: #fff;background: #52646c;background: -webkit-linear-gradient(to right, #88979e, #52646c);background: linear-gradient(to right, #88979e, #52646c);" class="mb-4 py-5">
+		<section id="platform" class="mb-4 py-5">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-10 col-lg-6" style="font-size: 1.3rem;">
 						<div class="alert text-center mt-0 mt-xl-3 mb-2 pt-0">
 							<?php echo L::messageLaunch; ?>
 						</div>
-						<a class="btn btn-primary d-block py-2 mt-3 text-center mt-xl-4" style="background: #f3f4f5; border: none;" href="https://de.openparliament.tv" target="_blank" class="text-white"><span class="icon-right-open-big mr-1"></span> <b>https://de.openparliament.tv</b></a>
+						<a class="btn btn-primary d-block py-2 mt-3 text-center mt-xl-4" style="background: #6f8087;color: #fff;border: none;" href="https://de.openparliament.tv" target="_blank" class="text-white"><span class="icon-right-open-big mr-1"></span> <b>https://de.openparliament.tv</b></a>
 					</div>
 					<div class="col-12 col-md-8 col-lg-6 mt-4 mt-lg-0">
-						<a href="https://de.openparliament.tv"><img src="client/images/screenshot.png" title="Visit de.openparliament.tv" class="d-block" style="width: 100%; border: 2px solid #fff; box-shadow: 0 0 6px #1d1d1d;" alt="Screenshot of the Open Parliament TV Platform"></a>
+						<a href="https://de.openparliament.tv"><img src="client/images/screenshot.png" title="Visit de.openparliament.tv" class="d-block" style="width: 100%; border: 2px solid #fff; box-shadow: 0 0 6px #999999;" alt="Screenshot of the Open Parliament TV Platform"></a>
 					</div>
 				</div>
 			</div>

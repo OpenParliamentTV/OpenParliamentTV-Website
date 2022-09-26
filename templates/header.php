@@ -3,7 +3,7 @@
 ?>
 <header>
 	<nav class="navbar navbar-expand-xl navbar-light fixed-top">
-		<a href="./" class="navbar-text brand"><img src="client/images/optv-logo_klein.png"><span class="d-none d-md-inline">Open Parliament TV</span></a>
+		<a href="./" class="navbar-text brand"><img src="client/images/optv-logo_klein.png"><span class="d-none d-md-inline">Open <b>Parliament TV</b></span></a>
 		<button class="btn btn-primary btn-sm ml-auto d-block d-xl-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><?php echo L::menu; ?> <span class="icon-menu-1"></span>
 		</button>
 		<div class="dropdown ml-3 order-xl-3">
