@@ -16,20 +16,20 @@ body {
 
 @font-face {
     font-family: 'Open Sans';
-    src: url("../fonts/opensans-light-webfont.woff2") format("woff2"),url(../fonts/opensans-light-webfont.woff) format("woff");
+    src: url("../fonts/OpenSans-Light.ttf");
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: url("../fonts/opensans-semibold-webfont.woff2") format("woff2"),url(../fonts/opensans-semibold-webfont.woff) format("woff");
-    font-weight: 500;
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans Krypto';
-    src: url("../fonts/opensans-light-krypto-webfont.woff2") format("woff2"),url(../fonts/opensans-light-krypto-webfont.woff) format("woff");
-    font-weight: 300;
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -47,7 +47,7 @@ body {
 
 header {
     position: relative;
-    height: 50px;
+    height: 40px;
     z-index: 21;
 }
 
@@ -108,6 +108,12 @@ header .navbarCenterOptions {
 
 header .navbarCenterOptions #toggleAutoplayResults.active .icon-play-1::before {
     content: '\e8a9';
+}
+
+#header {
+    background-image: url(../images/bg.png);
+    background-clip: padding-box;
+    background-position: center center;
 }
 
 footer {
@@ -309,10 +315,9 @@ section {
 }
 
 section#platform {
-    color: #fff;
-    background: #52646c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #88979e, #52646c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #88979e, #52646c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f7f6fb;
+    border-top: 1px solid rgba(0,0,0,.1); 
+    border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 .loadingIndicator {
