@@ -166,6 +166,22 @@
 							<div class="linkWrapper">
 									<div class="thumbnailContainer">
 									<div class="rounded-circle">
+										<img src="./client/images/team/sanaz.jpg" alt="Sanaz Klaus">
+									</div>
+								</div>
+								<div>
+									<div class="entityTitle">Sanaz Klaus</div>
+									<div><?php echo L::projectManagerFemale; ?> | <a class="d-inline p-0" href="https://onpurpose.org/de/" target="_blank">On Purpose</a> Associate</div>
+									<div class="mt-2"><?php echo L::roleTextSanaz; ?></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="entityPreview col" data-type="person">
+						<div class="entityContainer">
+							<div class="linkWrapper">
+									<div class="thumbnailContainer">
+									<div class="rounded-circle">
 										<img src="./client/images/team/alexa.jpg" alt="Alexa Steinbrück">
 									</div>
 								</div>
