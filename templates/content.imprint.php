@@ -51,9 +51,11 @@
 		<div class="row m-0" style="position: relative; z-index: 1">
 			<div class="col-12">
 				<h2><?php echo L::imprint; ?></h2>
-				<p>Joscha Jäger<br>
-					Bülowstr. 37<br>
-					90491 Nürnberg<br>
+				<p>Open Parliament TV<br>
+					c/o Center for the Cultivation of Technology gemeinnützige GmbH<br>
+					Aufgang 4<br>
+					Gottschedstraße 4<br>
+					13357 Berlin
 				</p>
 				<p>Inhaltlich verantwortlich gemäß § 5 TMG, § 55 RStV: Joscha Jäger</p>
 				<h2><?php echo L::contactRequests; ?></h2>
