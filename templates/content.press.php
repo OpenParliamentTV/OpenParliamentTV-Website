@@ -8,8 +8,8 @@
 	<title><?php echo L::press; ?> - Open Parliament TV</title>
 
 	<meta itemprop="name" content="<?php echo L::brand; ?>">
-    <meta name="twitter:title" content="Idea - <?php echo L::brand; ?>">
-    <meta property="og:title" content="Idea - <?php echo L::brand; ?>">
+    <meta name="twitter:title" content="<?php echo L::press; ?> - <?php echo L::brand; ?>">
+    <meta property="og:title" content="<?php echo L::press; ?> - <?php echo L::brand; ?>">
 
     <meta name="description" content="<?php echo L::tagline; ?>">
     <meta itemprop="description" content="<?php echo L::tagline; ?>">
