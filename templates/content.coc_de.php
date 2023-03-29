@@ -8,8 +8,8 @@
 	<title>Code of Conduct - Open Parliament TV</title>
 
 	<meta content="<?php echo L::brand; ?>">
-    <meta name="twitter:title" content="<?php echo L::brand; ?>">
-    <meta property="og:title" content="<?php echo L::brand; ?>">
+    <meta name="twitter:title" content="Code of Conduct - <?php echo L::brand; ?>">
+    <meta property="og:title" content="Code of Conduct - <?php echo L::brand; ?>">
 
     <meta name="description" content="<?php echo L::tagline; ?>">
     <meta itemprop="description" content="<?php echo L::tagline; ?>">
@@ -62,7 +62,7 @@
 					<div>
 						<div class="card-body">
 							<p>Unser Code of Conduct dient als Leitfaden für Open Parliament TV und gilt daher für uns alle gleichermaßen. Er richtet sich an alle, von der Geschäftsführung über Mitarbeitende bis hin zu Auftragnehmer:innen und ehrenamtlichen Helfer.innen. </p>
-							<p>Dieser Code of Conduct solle eine Orientierung für eine gleichberechtigte und einvernehmliche Zusammenarbeit bieten. Der Code of Conduct stützt sich auf gemeinsame Werte und Regeln der Zusammenarbeit.</p>
+							<p>Dieser Code of Conduct soll eine Orientierung für eine gleichberechtigte und einvernehmliche Zusammenarbeit bieten. Der Code of Conduct stützt sich auf gemeinsame Werte und Regeln der Zusammenarbeit.</p>
 						</div>
 					</div>
 				</div>

@@ -8,8 +8,8 @@
 	<title>Code of Conduct - Open Parliament TV</title>
 
 	<meta content="<?php echo L::brand; ?>">
-    <meta name="twitter:title" content="<?php echo L::brand; ?>">
-    <meta property="og:title" content="<?php echo L::brand; ?>">
+    <meta name="twitter:title" content="Code of Conduct - <?php echo L::brand; ?>">
+    <meta property="og:title" content="Code of Conduct - <?php echo L::brand; ?>">
 
     <meta name="description" content="<?php echo L::tagline; ?>">
     <meta itemprop="description" content="<?php echo L::tagline; ?>">

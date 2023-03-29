@@ -192,6 +192,12 @@ h1.brand {
     }
 }
 
+blockquote {
+    font-size: 17px;
+    border-left: 2px solid;
+    padding-left: 1rem;
+}
+
 a {
     color: #0056b3;
 }
