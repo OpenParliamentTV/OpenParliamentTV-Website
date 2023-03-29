@@ -96,7 +96,7 @@
 					<div>
 						<div class="card-body">
 							<p>A conscious and targeted approach to diversity helps to prevent discrimination and promote, as well as create equal opportunities. </p>
-							<p>BAt Open Parliament TV, we want people to be able to participate and feel comfortable regardless of gender, sexual orientation, origin, faith, appearance, religion or age. We do not tolerate sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory behaviour. </p>
+							<p>At Open Parliament TV, we want people to be able to participate and feel comfortable regardless of gender, sexual orientation, origin, faith, appearance, religion or age. We do not tolerate sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory behaviour. </p>
 							<p>We work together cooperatively and try to anticipate and avoid or cooperatively resolve conflicts that may arise when people work together. Discrimination can also occur unintentionally or unconsciously. For this reason, we take perceived discrimination seriously and deal openly, appropriately and self-critically with statements or behaviour that are perceived as discriminatory. This also includes non-verbal forms of discrimination, such as cultural appropriation. </p>
 							<p>Health is a state of complete physical, mental and social well-being. We acknowledge that not everybody is always in their best state and collectively agree that our physical and mental health are more important than our work on Open Parliament TV. </p>
 						</div>
