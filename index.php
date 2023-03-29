@@ -56,6 +56,11 @@ switch ($_REQUEST["a"]) {
 		include_once("./templates/content.vision_".$lang.".php");
 		$content = ob_get_clean();
 	break;
+	case "code-of-conduct":
+		ob_start();
+		include_once("./templates/content.coc_".$lang.".php");
+		$content = ob_get_clean();
+	break;
 	case "application-areas":
 		ob_start();
 		include_once("./templates/content.application_".$lang.".php");

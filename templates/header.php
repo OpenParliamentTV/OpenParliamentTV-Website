@@ -30,6 +30,9 @@
 				<li class="nav-item mr-2">
 					<a class="nav-link <?= ($page == "team") ? "active" : "" ?>" href="./team"><span class="icon-handshake-o mr-2" style="top: -1px;position: relative;"></span><?php echo L::team; ?></a>
 				</li>
+				<li class="nav-item mr-2">
+					<a class="nav-link <?= ($page == "code-of-conduct") ? "active" : "" ?>" href="./code-of-conduct"><span class="icon-heart mr-1"></span>Code of Conduct</a>
+				</li>
 				<!--
 				<li class="nav-item mr-2">
 					<a class="nav-link <?= ($page == "news") ? "active" : "" ?>" href="./news"><span class="icon-clock-3 mr-0" style="top: -1px;position: relative;"></span><?php echo L::news; ?></a>
@@ -39,7 +42,7 @@
 				</li>
 				-->
 				<li class="nav-item mr-2">
-					<a class="nav-link <?= ($page == "faq") ? "active" : "" ?>" href="./faq"><span class="icon-help-circled mr-0" style="top: -1px;position: relative;"></span><?php echo L::faq; ?></a>
+					<a class="nav-link <?= ($page == "faq") ? "active" : "" ?>" href="./faq"><span class="icon-help-circled mr-0" style="top: -1px;position: relative;"></span><?php echo L::faqShort; ?></a>
 				</li>
 				<!--
 				<li class="nav-item">
