@@ -134,22 +134,6 @@
 							<div class="linkWrapper">
 									<div class="thumbnailContainer">
 									<div class="rounded-circle">
-										<img src="./client/images/team/julia.jpg" alt="Julia Steger">
-									</div>
-								</div>
-								<div>
-									<div class="entityTitle">Julia Steger</div>
-									<div><?php echo L::organisationalDeveloper; ?></div>
-									<div class="mt-2"><?php echo L::roleTextJulia; ?></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="entityPreview col" data-type="person">
-						<div class="entityContainer">
-							<div class="linkWrapper">
-									<div class="thumbnailContainer">
-									<div class="rounded-circle">
 										<img src="./client/images/team/joseph.jpg" alt="..">
 									</div>
 								</div>
@@ -166,6 +150,22 @@
 							<div class="linkWrapper">
 									<div class="thumbnailContainer">
 									<div class="rounded-circle">
+										<img src="./client/images/team/marina.jpg" alt="Marina Knauf">
+									</div>
+								</div>
+								<div>
+									<div class="entityTitle">Marina Knauf</div>
+									<div><?php echo L::projectManagerFemale; ?> | <a class="d-inline p-0" href="https://onpurpose.org/de/" target="_blank">On Purpose</a> Associate</div>
+									<div class="mt-2"><?php echo L::roleTextMarina; ?></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="entityPreview col" data-type="person">
+						<div class="entityContainer">
+							<div class="linkWrapper">
+									<div class="thumbnailContainer">
+									<div class="rounded-circle">
 										<img src="./client/images/team/sanaz.jpg" alt="Sanaz Klaus">
 									</div>
 								</div>
@@ -173,6 +173,22 @@
 									<div class="entityTitle">Sanaz Klaus</div>
 									<div><?php echo L::projectManagerFemale; ?> | <a class="d-inline p-0" href="https://onpurpose.org/de/" target="_blank">On Purpose</a> Associate</div>
 									<div class="mt-2"><?php echo L::roleTextSanaz; ?></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="entityPreview col" data-type="person">
+						<div class="entityContainer">
+							<div class="linkWrapper">
+									<div class="thumbnailContainer">
+									<div class="rounded-circle">
+										<img src="./client/images/team/julia.jpg" alt="Julia Steger">
+									</div>
+								</div>
+								<div>
+									<div class="entityTitle">Julia Steger</div>
+									<div><?php echo L::organisationalDeveloper; ?></div>
+									<div class="mt-2"><?php echo L::roleTextJulia; ?></div>
 								</div>
 							</div>
 						</div>
