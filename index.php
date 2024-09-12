@@ -51,6 +51,16 @@ switch ($_REQUEST["a"]) {
         }
 
     break;
+	case "scaling-concept":
+		ob_start();
+		include_once("./templates/content.future_".$lang.".php");
+		$content = ob_get_clean();
+	break;
+	case "job-co-founder":
+		ob_start();
+		include_once("./templates/content.job-co-founder.php");
+		$content = ob_get_clean();
+	break;
 	case "vision-mission-strategy":
 		ob_start();
 		include_once("./templates/content.vision_".$lang.".php");
