@@ -6,7 +6,19 @@
 	# Try to fix conflicting rewrite rules set by Wordpress etc:
 	RewriteEngine Off
 	RewriteEngine On
+	########################################
+	# Always remove trailing slash
+	########################################
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} (.+)/$
+	RewriteRule ^ %1 [L,R]
+	########################################
+	# Rewrite old to new urls
+	########################################
 	RewriteRule ^proposal(.*)$ /vision-mission-strategy [R=302,NC,L]
+	########################################
+	# Generic rewrites
+	########################################
 	RewriteCond %{SCRIPT_FILENAME} !-d
 	RewriteCond %{SCRIPT_FILENAME} !-f
 	RewriteRule ^([a-zA-Z0-9_-]+)? index.php?a=$1 [QSA]
