@@ -191,17 +191,20 @@
 					</div>
 				</div>
 				<div class="row justify-content-md-center">
-					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+					<div class="col-6 col-md-2 col-lg-2 justify-content-center mt-3">
 						<a href="https://mstdn.social/@OpenParlTV" class="btn btn-primary d-block">Mastodon</a>
 					</div>
-					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+					<div class="col-6 col-md-2 col-lg-2 justify-content-center mt-3">
 						<a href="https://bsky.app/profile/openparltv.bsky.social" class="btn btn-primary d-block">Bluesky</a>
 					</div>
-					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+					<div class="col-6 col-md-2 col-lg-2 justify-content-center mt-3">
 						<a href="https://www.linkedin.com/company/open-parliament-tv/" class="btn btn-primary d-block">LinkedIn</a>
 					</div>
-					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+					<div class="col-6 col-md-2 col-lg-2 justify-content-center mt-3">
 						<a href="https://twitter.com/OpenParlTV" class="btn btn-primary d-block">Twitter</a>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2 justify-content-center mt-3">
+						<a href="https://github.com/OpenParliamentTV" class="btn btn-primary d-block">Github</a>
 					</div>
 				</div>
 			</div>
