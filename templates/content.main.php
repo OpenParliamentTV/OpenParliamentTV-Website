@@ -157,43 +157,8 @@
 				</div>
 			</div>
 		</section>
-		<hr>
-		<section id="info" class="mb-4">
-			<div class="container">
-				<!--
-				<div class="row">
-					<div class="col-12 col-md-6">
-						<h2><span class="icon-info mr-1"></span><?php echo L::moreInfo; ?></h2>
-					</div>
-				</div>
-				<div class="row justify-content-md-center">
-					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
-						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
-						<a href="./background" class="btn btn-primary d-block"><span class="icon-doc-text-inv mr-1"></span><?php echo L::background; ?></a>
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
-						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
-						<a href="./faq" class="btn btn-primary d-block"><span class="icon-help-circled mr-1"></span><?php echo L::faq; ?></a>
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
-						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
-						<a href="./roadmap" class="btn btn-primary d-block"><span class="icon-tasks mr-1"></span>Roadmap</a>
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 justify-content-center my-3">
-						<div class="mb-3">Et beatae nihil quis vel voluptate dolorem adipisci. Recusandae dolorem pariatur et repudiandae aut. </div>
-						<a href="https://twitter.com/intent/follow?screen_name=OpenParlTV" class="btn btn-primary d-block"><span class="icon-twitter"></span><?php echo L::twitterBtn; ?></a>
-					</div>
-				</div>
-				-->
-				<div class="row justify-content-md-center">
-					<div class="col-12 col-md-6 col-lg-4 justify-content-center mt-3">
-						<a href="https://twitter.com/intent/follow?screen_name=OpenParlTV" class="btn btn-primary d-block"><span class="icon-twitter"></span><?php echo L::twitterBtn; ?></a>
-					</div>
-				</div>
-			</div>
-		</section>
 		<!--
-		<section id="presse" class="mb-4">
+		<section id="press" class="mb-4">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-md-6">
@@ -217,6 +182,30 @@
 			</div>
 		</section>
 		-->
+		<hr>
+		<section id="info" class="mb-0">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-12 mt-3 text-center font-weight-bolder">
+						<h3><?php echo L::findUsOn; ?>:  </h3>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+						<a href="https://mstdn.social/@OpenParlTV" class="btn btn-primary d-block">Mastodon</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+						<a href="https://bsky.app/profile/openparltv.bsky.social" class="btn btn-primary d-block">Bluesky</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+						<a href="https://www.linkedin.com/company/open-parliament-tv/" class="btn btn-primary d-block">LinkedIn</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-3 justify-content-center mt-3">
+						<a href="https://twitter.com/OpenParlTV" class="btn btn-primary d-block">Twitter</a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<?php include_once('footer.php'); ?>
 	<script type="text/javascript" src="client/js/jquery-3.4.1.min.js"></script>
