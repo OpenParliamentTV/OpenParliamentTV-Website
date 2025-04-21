@@ -1,50 +1,4 @@
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta charset="utf-8">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="Expires" content="-1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<title>Vision, Mission & Strategy - Open Parliament TV</title>
-
-	<meta itemprop="name" content="<?php echo L::brand; ?>">
-    <meta name="twitter:title" content="Vision, Mission & Strategy - <?php echo L::brand; ?>">
-    <meta property="og:title" content="Vision, Mission & Strategy - <?php echo L::brand; ?>">
-
-    <meta name="description" content="<?php echo L::tagline; ?>">
-    <meta itemprop="description" content="<?php echo L::tagline; ?>">
-    <meta name="twitter:description" content="<?php echo L::tagline; ?>">
-    <meta property="og:description" content="<?php echo L::tagline; ?>">
-
-    <meta itemprop="image" content="https://openparliament.tv/client/images/thumbnail.png">
-    <meta name="twitter:image" content="https://openparliament.tv/client/images/thumbnail.png">
-    <meta property="og:image" content="https://openparliament.tv/client/images/thumbnail.png">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:type" content="article">
-
-	<link rel="icon" type="image/png" href="favicon.png" />
-	
-	<link type="text/css" rel="stylesheet" href="client/css/bootstrap.min.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/Chart.min.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/frametrail-webfont.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/style.css" media="all" />
-	<!-- Matomo -->
-	<script>
-	  var _paq = window._paq = window._paq || [];
-	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-	  _paq.push(['trackPageView']);
-	  _paq.push(['enableLinkTracking']);
-	  (function() {
-	    var u="//stats.openparliament.tv/";
-	    _paq.push(['setTrackerUrl', u+'matomo.php']);
-	    _paq.push(['setSiteId', '2']);
-	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-	  })();
-	</script>
-	<!-- End Matomo Code -->
-</head>
+<?php include_once('head.php'); ?>
 <body>
 	<?php include_once('header.php'); ?>
 	<main style="margin-top: 60px;">
@@ -112,7 +66,7 @@
 						<p>To implement our vision of thrustworthy and credible parliamentary democracies through more transparency, education and participation, we focus on three closely connected strategical areas: <strong>technology</strong>, <strong>policy & advocacy</strong>, <strong>network</strong>.</p>
 						<p><strong><u>Technology:</u></strong></p><p>Almost every parliament publishes video recordings and text proceedings of sessions. Together with other documents like legislative proposals, motions or inquiries, they allow direct insight into the decision processes of parliamentary democracy.</p>
 						<p>But despite comparable structures and similar workflows, parliamentary proceedings are published in various, incompatible formats and parliament tv contents are only accessible via proprietary platforms. </p>
-						<p>Videos recordings of parliamentary debates hold great untapped potential for digital democracy. They are more tangible than text documents or lists of votes and provide an easily accessible “window“ to the underlying discussions, negotiations and decisions. </p>
+						<p>Videos recordings of parliamentary debates hold great untapped potential for digital democracy. They are more tangible than text documents or lists of votes and provide an easily accessible "window" to the underlying discussions, negotiations and decisions. </p>
 						<p>We want to use this potential by </p>
 						<ul>
 							<li>creating a joint technological basis for parliaments (interoperable standards, interfaces and document formats) as well as </li>
@@ -151,7 +105,7 @@
 					</div>
 				  </div>
 				  <div class="col-lg-9 mx-auto">
-				  	<a href="./application-areas" class="btn btn-primary d-block py-2 mt-5"><span class="icon-right-open-big mr-1"></span>More on the <b>Application Areas</b> of Open Parliament TV</a>
+				  	<a href="./application-areas" class="btn btn-primary d-block py-2 mt-5"><span class="icon-right-open-big me-1"></span>More on the <b>Application Areas</b> of Open Parliament TV</a>
 				  </div>
 				</div>
 			</div>
@@ -160,7 +114,6 @@
 	<?php include_once('footer.php'); ?>
 	<script type="text/javascript" src="client/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="client/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="client/js/Chart.min.js"></script>
 	<script type="text/javascript" src="client/js/bootstrap.bundle.min.js"></script>
 	<script type="text/javascript" src="client/js/index.js"></script>
 </body>

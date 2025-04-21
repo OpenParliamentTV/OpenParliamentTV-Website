@@ -63,6 +63,7 @@ header .navbar .navbar-text {
     padding: 0.5rem 0.25rem;
     line-height: 1.5;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 header .navbar .navbar-text.brand {
@@ -231,7 +232,7 @@ a {
     border-color: #dee2e6;
 }
 
-main .btn[data-toggle="collapse"]:not(.collapsed) {
+main .btn[data-bs-toggle="collapse"]:not(.collapsed) {
     z-index: 2;
     position: relative;
     border-bottom-left-radius: 0;
@@ -239,15 +240,15 @@ main .btn[data-toggle="collapse"]:not(.collapsed) {
     border-bottom-color: transparent;
 }
 
-.btn[data-toggle="collapse"].collapsed .icon-up-open-big::before {
+.btn[data-bs-toggle="collapse"].collapsed .icon-up-open-big::before {
     content: '\e8f7';
 }
 
-.btn[data-toggle="collapse"] .labelShow, .btn[data-toggle="collapse"].collapsed .labelCollapse {
+.btn[data-bs-toggle="collapse"] .labelShow, .btn[data-bs-toggle="collapse"].collapsed .labelCollapse {
     display: none;
 }
 
-.btn[data-toggle="collapse"].collapsed .labelShow {
+.btn[data-bs-toggle="collapse"].collapsed .labelShow {
     display: inline;
 }
 
@@ -481,7 +482,7 @@ section#platform {
 }
 
 .relationshipsList .entityPreview .entityContainer .entityTitle {
-    font-weight: bolder;
+    font-weight: bold;
     max-height: 167px;
     overflow: auto;
     hyphens: auto;

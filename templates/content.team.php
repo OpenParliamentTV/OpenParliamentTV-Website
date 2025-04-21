@@ -1,58 +1,12 @@
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta charset="utf-8">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="Expires" content="-1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<title><?php echo L::team; ?> - Open Parliament TV</title>
-
-	<meta itemprop="name" content="<?php echo L::brand; ?>">
-    <meta name="twitter:title" content="Idea - <?php echo L::brand; ?>">
-    <meta property="og:title" content="Idea - <?php echo L::brand; ?>">
-
-    <meta name="description" content="<?php echo L::tagline; ?>">
-    <meta itemprop="description" content="<?php echo L::tagline; ?>">
-    <meta name="twitter:description" content="<?php echo L::tagline; ?>">
-    <meta property="og:description" content="<?php echo L::tagline; ?>">
-
-    <meta itemprop="image" content="https://openparliament.tv/client/images/thumbnail.png">
-    <meta name="twitter:image" content="https://openparliament.tv/client/images/thumbnail.png">
-    <meta property="og:image" content="https://openparliament.tv/client/images/thumbnail.png">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:type" content="article">
-
-	<link rel="icon" type="image/png" href="favicon.png" />
-	
-	<link type="text/css" rel="stylesheet" href="client/css/bootstrap.min.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/Chart.min.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/frametrail-webfont.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="client/css/style.css?v=2" media="all" />
-	<!-- Matomo -->
-	<script>
-	  var _paq = window._paq = window._paq || [];
-	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-	  _paq.push(['trackPageView']);
-	  _paq.push(['enableLinkTracking']);
-	  (function() {
-	    var u="//stats.openparliament.tv/";
-	    _paq.push(['setTrackerUrl', u+'matomo.php']);
-	    _paq.push(['setSiteId', '2']);
-	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-	  })();
-	</script>
-	<!-- End Matomo Code -->
-</head>
+<?php include_once('head.php'); ?>
 <body>
 	<?php include_once('header.php'); ?>
-	<main style="margin-top: 60px;">
+	<main class="container" style="margin-top: 60px;">
 		<div class="row m-0" style="position: relative; z-index: 1;">
 			<div class="container" style="margin-bottom: 30px;">
 				<div class="row">
 					<div class="col-12">
-						<h1 class="mb-4"><span class="icon-mail mr-2" style="top: -1px;position: relative;"></span> <?php echo L::contactRequests; ?></h1>
+						<h1 class="mb-4"><span class="icon-mail me-2" style="top: -1px;position: relative;"></span> <?php echo L::contactRequests; ?></h1>
 						<div class="mb-1">Mail: info [AT] openparliament.tv</div>
 						<div>Mastodon: <a href="https://mstdn.social/@OpenParlTV" target="_blank">@OpenParlTV@mstdn.social</a> | Bluesky: <a href="https://bsky.app/profile/openparltv.bsky.social" target="_blank">@openparltv.bsky.social</a> | Twitter: <a href="https://twitter.com/OpenParlTV" target="_blank">@OpenParlTV</a></div>
 					</div>
@@ -60,7 +14,7 @@
 				<hr class="my-4">
 				<div class="row">
 					<div class="col-12">
-						<h1 class="mb-4"><span class="icon-handshake-o mr-2" style="top: -1px;position: relative;"></span> <?php echo L::team; ?></h1>
+						<h1 class="mb-4"><span class="icon-handshake-o me-2" style="top: -1px;position: relative;"></span> <?php echo L::team; ?></h1>
 					</div>
 				</div>
 				<div class="relationshipsList row row-cols-1 row-cols-sm-1 row-cols-lg-2">
@@ -223,7 +177,6 @@
 	<?php include_once('footer.php'); ?>
 	<script type="text/javascript" src="client/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="client/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="client/js/Chart.min.js"></script>
 	<script type="text/javascript" src="client/js/bootstrap.bundle.min.js"></script>
 	<script type="text/javascript" src="client/js/index.js"></script>
 </body>
