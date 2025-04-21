@@ -1,3 +1,4 @@
+<?php include_once('head.php'); ?>
 <body>
 	<?php include_once('header.php'); ?>
 	<main style="margin-top: 60px;" class="container">
